@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model livro {
+  idLivro       Int      @id
+  titulo        String
+  isbn          String
+  autor         String
+  editora       String?
+  anoPublicacao Int?
+  paginas       Int?
+  status        String?
+}
