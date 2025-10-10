@@ -15,7 +15,7 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-  // Swagger config
+ 
   const config = new DocumentBuilder()
     .setTitle('API Home Pages')
     .setDescription('API para fornecer dados da página inicial do app de livros')

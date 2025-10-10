@@ -4,7 +4,7 @@ import { HomeResponse } from './dto/home.dto';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 
 @ApiTags('Home')
-@Controller('home')
+@Controller('home-pages')
 export class HomeController {
   constructor(private readonly homeService: HomeService) {}
 
