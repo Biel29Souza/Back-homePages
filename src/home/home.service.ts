@@ -12,13 +12,37 @@ export class HomeService {
           title: 'Tecnologia',
           seeMoreLink: '/catalogo?cat=tecnologia',
           books: [
-            { id: 1, title: 'Angular na Prática', coverUrl: cover('Angular') },
-            { id: 2, title: 'TypeScript Essencial', coverUrl: cover('TS') },
-            { id: 3, title: 'Clean Code', coverUrl: cover('Clean Code') },
-            { id: 4, title: 'Algoritmos', coverUrl: cover('Algoritmos') },
-            { id: 5, title: 'Git & GitHub', coverUrl: cover('Git') },
-            { id: 6, title: 'Banco de Dados', coverUrl: cover('SQL') },
-          ],
+            {
+              id: 1,
+              title: 'Angular na Prática',
+              coverUrl: 'https://d2sofvawe08yqg.cloudfront.net/livro-angular2/s_hero2x?1620503043'
+            },
+            {
+              id: 2,
+              title: 'TypeScript – Gerando o JavaScript do Futuro',
+              coverUrl: 'https://res.cloudinary.com/total-typescript/image/upload/v1718801512/typescript-essentials_b2myrp.jpg'
+            },
+            {
+              id: 3,
+              title: 'Clean Code',
+              coverUrl: 'https://m.media-amazon.com/images/I/41xShlnTZTL._SX374_BO1,204,203,200_.jpg'
+            },
+            {
+              id: 4,
+              title: 'Algoritmos',
+              coverUrl: 'https://m.media-amazon.com/images/I/51Zymoq7UnL._SX379_BO1,204,203,200_.jpg'
+            },
+            {
+              id: 5,
+              title: 'Git & GitHub',
+              coverUrl: 'https://m.media-amazon.com/images/I/41as+WafrFL._SX331_BO1,204,203,200_.jpg'
+            },
+            {
+              id: 6,
+              title: 'Banco de Dados ',
+              coverUrl: 'https://staticbv.bvirtual.com.br/publicacoes/296/thumbs/thumbnail_397_x_595.jpg'
+            },
+          ]
         },
         {
           title: 'Direito',
