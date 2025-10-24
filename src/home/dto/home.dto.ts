@@ -2,6 +2,7 @@ export class Book {
     id: number;
     title: string;
     coverUrl: string;
+    author: string;
   }
   
   export class Category {
